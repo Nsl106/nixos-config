@@ -4,7 +4,7 @@
   ...
 }: {
   imports = [
-    ./keybinds.nix
+    ./keybinds
     ./windows.nix
     ./keyboard.nix
     ./mouse.nix
