@@ -21,7 +21,11 @@
     xorg.xev
     prismlauncher
     xorg.xeyes
+    wl-clipboard
+    xorg.xev
   ];
+
+  services.cliphist.enable = true;
 
   programs.bash = {
     enable = true;

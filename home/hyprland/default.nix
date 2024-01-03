@@ -10,6 +10,7 @@
     ./mouse.nix
     ./defaultbackground.nix
     ./monitors.nix
+    ./autostart.nix
   ];
 
   wayland.windowManager.hyprland = {
