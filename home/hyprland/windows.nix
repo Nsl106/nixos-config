@@ -13,9 +13,15 @@
     decoration = {
       rounding = 7;
     };
+
+    misc = {
+      animate_manual_resizes = true;
+      animate_mouse_windowdragging = true;
+    };
+
+    animation = [
+      "workspaces,1,2,default"
+      "windows,1,2,default,popin 50%"
+    ];
   };
-  wayland.windowManager.hyprland.settings.animation = [
-    "workspaces,1,2,default"
-    "windows,1,2,default,popin 50%"
-  ];
 }
