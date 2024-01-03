@@ -5,6 +5,7 @@
 }: {
   imports = [
     ./keybinds.nix
+    ./windows.nix
     ./keyboard.nix
     ./mouse.nix
   ];
@@ -13,7 +14,5 @@
     enable = true;
     package = pkgs.hyprland;
     xwayland.enable = true;
-
-    settings.general.layout = "dwindle";
   };
 }
