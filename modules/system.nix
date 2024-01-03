@@ -3,6 +3,8 @@
   pkgs,
   ...
 }: {
+  imports = [./audio.nix];
+
   networking.networkmanager.enable = true;
 
   # Set your time zone.

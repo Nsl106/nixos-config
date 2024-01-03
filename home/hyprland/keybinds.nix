@@ -3,6 +3,12 @@
     "$mod" = "SUPER";
 
     bind = [
+      # Volume / Media Keys
+      ", XF86AudioRaiseVolume, exec, pamixer --increase 5"
+      ", XF86AudioLowerVolume, exec, pamixer --decrease 5"
+      ", XF86AudioMute, exec, pamixer --toggle-mute"
+      ", XF86AudioPlay, exec, playerctl play-pause"
+
       # { Mod + Enter } = open terminal
       "$mod, RETURN, exec, kitty"
 
