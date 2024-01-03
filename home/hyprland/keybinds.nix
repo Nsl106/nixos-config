@@ -6,7 +6,6 @@
   wayland.windowManager.hyprland.settings = {
     "$mod" = "SUPER";
     bind = [
-      "$mod, F, exec, firefox"
       "$mod, RETURN, exec, kitty"
       "$mod SHIFT, c, killactive"
       "$mod, SPACE, exec, rofi -show drun"
