@@ -13,6 +13,16 @@
     extraGroups = ["wheel" "networkmanager"]; # Enable ‘sudo’ for the user.
   };
 
+  boot.loader.grub.configurationLimit = 10;
+  nix.settings.auto-optimise-store = true;
+
+  # Perform garbage collection weekly to maintain low disk usage
+  nix.gc = {
+    automatic = true;
+    dates = "weekly";
+    options = "--delete-older-than 1w";
+  };
+
   nixpkgs.config.allowUnfree = true;
 
   programs.bash.shellAliases = {
