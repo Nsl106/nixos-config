@@ -25,6 +25,14 @@
     options = "--delete-older-than 1w";
   };
 
+  # Keyboard remapping
+  services.keyd = {
+    enable = true;
+    keyboards.default.settings.main = {
+      capslock = "esc";
+    };
+  };
+
   nixpkgs.config.allowUnfree = true;
 
   programs.bash.shellAliases = {
