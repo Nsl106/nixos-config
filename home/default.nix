@@ -18,6 +18,7 @@
     rofi
     neofetch
     lsof
+    xorg.xev
   ];
 
   programs.bash = {
