@@ -8,7 +8,7 @@
   networking.networkmanager.enable = true;
 
   # Set your time zone.
-  time.timeZone = "Arizona/Phoenix";
+  time.timeZone = "America/Phoenix";
 
   users.users.nolanl = {
     isNormalUser = true;
