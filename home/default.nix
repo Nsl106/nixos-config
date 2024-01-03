@@ -20,6 +20,7 @@
     lsof
     xorg.xev
     prismlauncher
+    xorg.xeyes
   ];
 
   programs.bash = {
