@@ -20,8 +20,8 @@
     };
 
     animation = [
-      "workspaces,1,2,default"
-      "windows,1,2,default,popin 50%"
+      "workspaces,1,3,default"
+      "windows,1,3,default,popin 50%"
     ];
   };
 }
