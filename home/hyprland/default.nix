@@ -8,6 +8,7 @@
     ./windows.nix
     ./keyboard.nix
     ./mouse.nix
+    ./defaultbackground.nix
   ];
 
   wayland.windowManager.hyprland = {
