@@ -3,6 +3,12 @@
     bind = [
       # { Mod + Shift + C } = close active window
       "$mod SHIFT, c, killactive"
+
+      # { Mod + Shift + F } = toggle floating
+      "$mod SHIFT, f, togglefloating"
+
+      # { Mod + F } = toggle fullscreen
+      "$mod, f, fullscreen"
     ];
 
     bindm = [

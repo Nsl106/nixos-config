@@ -27,5 +27,11 @@
     # { Mod + S } = special workspace for spotify
     "$mod, S, togglespecialworkspace, spotify"
     "$mod SHIFT, S, movetoworkspacesilent, special:spotify"
+
+    # { Mod + Arrow Keys } = move focus
+    "$mod, Left, movefocus, l"
+    "$mod, Right, movefocus, r"
+    "$mod, Up, movefocus, u"
+    "$mod, Down, movefocus, d"
   ];
 }
