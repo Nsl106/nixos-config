@@ -33,5 +33,11 @@
     "$mod, Right, movefocus, r"
     "$mod, Up, movefocus, u"
     "$mod, Down, movefocus, d"
+
+    # { Mod + Control + Arrow Keys } = move workspace between monitors
+    "$mod CONTROL, Left, movecurrentworkspacetomonitor, l"
+    "$mod CONTROL, Right, movecurrentworkspacetomonitor, r"
+    "$mod CONTROL, Up, movecurrentworkspacetomonitor, u"
+    "$mod CONTROL, Down, movecurrentworkspacetomonitor, d"
   ];
 }
