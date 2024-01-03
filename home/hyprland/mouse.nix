@@ -8,6 +8,7 @@
     };
     general = {
       cursor_inactive_timeout = 0; # 0 is disabled
+      no_cursor_warps = true;
     };
   };
 }
