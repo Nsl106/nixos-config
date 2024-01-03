@@ -19,6 +19,7 @@
     neofetch
     lsof
     xorg.xev
+    prismlauncher
   ];
 
   programs.bash = {
