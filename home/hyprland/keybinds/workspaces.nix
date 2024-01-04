@@ -16,7 +16,7 @@
     "$mod SHIFT, 1, movetoworkspacesilent, 1"
     "$mod SHIFT, 2, movetoworkspacesilent, 2"
     "$mod SHIFT, 3, movetoworkspacesilent, 3"
-    "$mod SHIFT, 4, movetoworkspacesilent, 4"
+    "$mod SHIFT, E, movetoworkspacesilent, 4"
     "$mod SHIFT, 5, movetoworkspacesilent, 5"
     "$mod SHIFT, 6, movetoworkspacesilent, 6"
     "$mod SHIFT, 7, movetoworkspacesilent, 7"
@@ -28,16 +28,16 @@
     "$mod, S, togglespecialworkspace, spotify"
     "$mod SHIFT, S, movetoworkspacesilent, special:spotify"
 
-    # { Mod + Arrow Keys } = move focus
-    "$mod, Left, movefocus, l"
-    "$mod, Right, movefocus, r"
-    "$mod, Up, movefocus, u"
-    "$mod, Down, movefocus, d"
+    # { Mod + IKJL } = move focus
+    "$mod, j, movefocus, l"
+    "$mod, l, movefocus, r"
+    "$mod, i, movefocus, u"
+    "$mod, k, movefocus, d"
 
-    # { Mod + Control + Arrow Keys } = move workspace between monitors
-    "$mod CONTROL, Left, movecurrentworkspacetomonitor, l"
-    "$mod CONTROL, Right, movecurrentworkspacetomonitor, r"
-    "$mod CONTROL, Up, movecurrentworkspacetomonitor, u"
-    "$mod CONTROL, Down, movecurrentworkspacetomonitor, d"
+    # { Mod + Shift + IKJL } = move workspace between monitors
+    "$mod SHIFT, j, movecurrentworkspacetomonitor, l"
+    "$mod SHIFT, l, movecurrentworkspacetomonitor, r"
+    "$mod SHIFT, i, movecurrentworkspacetomonitor, u"
+    "$mod SHIFT, k, movecurrentworkspacetomonitor, d"
   ];
 }

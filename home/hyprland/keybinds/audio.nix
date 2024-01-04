@@ -11,7 +11,7 @@
     "$mod SHIFT, Left, exec, playerctl previous"
 
     # { Mod + Left/Right Arrow } = skip/go back 5 seconds
-    "$mod ALT, Right, exec, playerctl position 5+"
-    "$mod ALT, Left, exec, playerctl position 5-"
+    "$mod, Right, exec, playerctl position 5+"
+    "$mod, Left, exec, playerctl position 5-"
   ];
 }
