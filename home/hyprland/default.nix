@@ -11,6 +11,7 @@
     ./defaultbackground.nix
     ./monitors.nix
     ./autostart.nix
+    ./hyprpaper.nix
   ];
 
   wayland.windowManager.hyprland = {

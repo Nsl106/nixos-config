@@ -23,6 +23,7 @@
     wl-clipboard
     xorg.xev
     alacritty
+    hyprpaper
   ];
 
   services.cliphist.enable = true;
