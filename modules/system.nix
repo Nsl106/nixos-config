@@ -42,6 +42,7 @@
 
   nixpkgs.config.allowUnfree = true;
   programs.hyprland.enable = true;
+  services.ddccontrol.enable = true;
 
   environment.systemPackages = with pkgs; [
     git

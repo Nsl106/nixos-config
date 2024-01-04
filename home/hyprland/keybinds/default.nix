@@ -1,5 +1,5 @@
 {
-  imports = [./audio.nix ./workspaces.nix ./windows.nix];
+  imports = [./speakers.nix ./monitors.nix ./workspaces.nix ./windows.nix];
   wayland.windowManager.hyprland.settings = {
     "$mod" = "SUPER";
 
