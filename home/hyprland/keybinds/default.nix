@@ -5,7 +5,7 @@
 
     bind = [
       # { Mod + Enter } = open terminal
-      "$mod, RETURN, exec, kitty"
+      "$mod, RETURN, exec, alacritty"
 
       # { Mod + Space } = open app launcher
       "$mod, SPACE, exec, rofi -show drun"

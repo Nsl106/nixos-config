@@ -14,7 +14,6 @@
     spotify
     hyprpaper
     jetbrains.idea-ultimate
-    kitty
     rofi
     neofetch
     lsof
@@ -23,6 +22,7 @@
     xorg.xeyes
     wl-clipboard
     xorg.xev
+    alacritty
   ];
 
   services.cliphist.enable = true;
