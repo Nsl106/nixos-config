@@ -31,7 +31,9 @@
     enable = true;
     enableCompletion = true;
 
-    shellAliases = {};
+    shellAliases = {
+      nano = "nano -m";
+    };
   };
 
   programs.home-manager.enable = true;
