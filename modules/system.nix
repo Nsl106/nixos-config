@@ -34,12 +34,6 @@
   };
 
   nixpkgs.config.allowUnfree = true;
-
-  programs.bash.shellAliases = {
-    rebuild-nix = "sudo nixos-rebuild switch --flake ~/.config/nixos#desktop";
-    format-nix = "( cd ~/.config/nixos && nix fmt )";
-  };
-
   programs.hyprland.enable = true;
 
   environment.systemPackages = with pkgs; [
