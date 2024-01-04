@@ -33,6 +33,13 @@
     };
   };
 
+  security.sudo = {
+    enable = true;
+    extraConfig = ''
+      Defaults timestamp_timeout = 30
+    '';
+  };
+
   nixpkgs.config.allowUnfree = true;
   programs.hyprland.enable = true;
 
