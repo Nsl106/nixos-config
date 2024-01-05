@@ -3,7 +3,7 @@
   pkgs,
   ...
 }: {
-  imports = [./hyprland ./programs];
+  imports = [./hyprland ./waybar ./programs];
 
   home.username = "nolanl";
   home.homeDirectory = "/home/nolanl";
