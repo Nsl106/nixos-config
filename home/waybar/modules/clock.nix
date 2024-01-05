@@ -1,6 +1,6 @@
 {
   programs.waybar.settings.main."clock" = {
-    format = "{:%H:%M}";
+    format = "{:%I:%M}";
     tooltip = false;
   };
 }
