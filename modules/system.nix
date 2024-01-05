@@ -3,7 +3,7 @@
   pkgs,
   ...
 }: {
-  imports = [./audio.nix];
+  imports = [./audio.nix ./fonts.nix];
 
   networking.networkmanager.enable = true;
 
