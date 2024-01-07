@@ -5,5 +5,6 @@
     ./disk.nix
     ./song.nix
     ./memory.nix
+    ./pulseaudio.nix
   ];
 }
