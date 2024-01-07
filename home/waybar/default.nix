@@ -13,9 +13,9 @@
         layer = "top";
         position = "top";
         height = 30;
-        modules-left = ["hyprland/workspaces" "hyprland/mode" "wlr/taskbar"];
+        modules-left = ["hyprland/workspaces" "wlr/taskbar"];
         modules-center = ["sway/window" "custom/song"];
-        modules-right = ["disk" "cpu" "temperature" "clock"];
+        modules-right = ["memory" "disk" "cpu" "temperature" "clock"];
       };
     };
   };

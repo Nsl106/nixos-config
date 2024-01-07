@@ -4,5 +4,6 @@
     ./cpu.nix
     ./disk.nix
     ./song.nix
+    ./memory.nix
   ];
 }
