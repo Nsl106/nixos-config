@@ -2,7 +2,7 @@
   wayland.windowManager.hyprland.settings = {
     input = {
       follow_mouse = true;
-      sensitivity = 0; # -1.0 to 1.0
+      sensitivity = -0.15; # -1.0 to 1.0
       accel_profile = "custom"; # Hopefully this fixes some weird scrolling acceleration
       natural_scroll = false;
     };
