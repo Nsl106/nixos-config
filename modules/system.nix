@@ -18,6 +18,10 @@
   boot.loader.grub.configurationLimit = 10;
   nix.settings.auto-optimise-store = true;
 
+  # Screen sharing
+  services.pipewire.enable = true;
+  services.pipewire.wireplumber.enable = true;
+
   # Perform garbage collection weekly to maintain low disk usage
   nix.gc = {
     automatic = true;

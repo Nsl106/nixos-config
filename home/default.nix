@@ -24,6 +24,8 @@
     xorg.xev
     alacritty
     hyprpaper
+    obs-studio
+    xdg-desktop-portal-hyprland
   ];
 
   services.cliphist.enable = true;
