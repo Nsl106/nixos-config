@@ -26,6 +26,7 @@
     hyprpaper
     obs-studio
     xdg-desktop-portal-hyprland
+    video-trimmer
   ];
 
   services.cliphist.enable = true;
