@@ -20,7 +20,6 @@
 
   # Screen sharing
   services.pipewire.enable = true;
-  services.pipewire.wireplumber.enable = true;
 
   # Perform garbage collection weekly to maintain low disk usage
   nix.gc = {
