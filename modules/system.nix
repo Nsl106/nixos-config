@@ -21,6 +21,12 @@
   # Screen sharing
   services.pipewire.enable = true;
 
+  services.xserver = {
+    layout = "us,";
+    xkbVariant = "dvorak,";
+  };
+  console.keyMap = "us";
+
   # Perform garbage collection weekly to maintain low disk usage
   nix.gc = {
     automatic = true;
