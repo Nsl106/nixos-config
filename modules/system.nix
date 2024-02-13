@@ -49,9 +49,9 @@
   services.ddccontrol.enable = true;
 
   console.useXkbConfig = true;
-  services.xserver = {
-    layout = "us,";
-    xkbVariant = "dvorak,";
+  services.xserver.xkb = {
+    layout = "us";
+    variant = "dvorak";
   };
 
   environment.systemPackages = with pkgs; [
