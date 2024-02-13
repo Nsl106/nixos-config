@@ -28,6 +28,7 @@
     xdg-desktop-portal-hyprland
     video-trimmer
     linuxKernel.packages.linux_zen.v4l2loopback
+    cbonsai
   ];
 
   services.cliphist.enable = true;
