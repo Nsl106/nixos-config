@@ -21,12 +21,6 @@
   # Screen sharing
   services.pipewire.enable = true;
 
-  services.xserver = {
-    layout = "us,";
-    xkbVariant = "dvorak,";
-  };
-  console.keyMap = "us";
-
   # Perform garbage collection weekly to maintain low disk usage
   nix.gc = {
     automatic = true;
@@ -51,7 +45,14 @@
 
   nixpkgs.config.allowUnfree = true;
   programs.hyprland.enable = true;
+
   services.ddccontrol.enable = true;
+
+  console.useXkbConfig = true;
+  services.xserver = {
+    layout = "us,";
+    xkbVariant = "dvorak,";
+  };
 
   environment.systemPackages = with pkgs; [
     git
