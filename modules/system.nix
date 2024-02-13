@@ -15,7 +15,10 @@
     extraGroups = ["wheel" "networkmanager"]; # Enable ‘sudo’ for the user.
   };
 
-  boot.loader.grub.configurationLimit = 10;
+  boot.loader.grub = {
+    configurationLimit = 10;
+    backgroundColor = "#24283B";
+  };
   nix.settings.auto-optimise-store = true;
 
   # Screen sharing
