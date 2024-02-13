@@ -12,6 +12,9 @@
 
       # { Mod + V } = clipboard history
       "$mod, V, exec, cliphist list | rofi -dmenu | cliphist decode | wl-copy"
+
+      # { Mod + Shift + R } = reload hyprland
+      "$mod SHIFT, R, exec, hyprctl reload"
     ];
   };
 }
