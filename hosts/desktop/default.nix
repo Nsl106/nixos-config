@@ -19,14 +19,6 @@
     enable = true;
     # set $FS_UUID to the UUID of the EFI partition
     useOSProber = true;
-    extraEntries = ''
-      menuentry "Windows" {
-          	insmod chain
-          	insmod ntfs
-          	set root=(hd1,1)
-          	chainloader +1
-      }
-    '';
   };
 
   nix.settings.experimental-features = ["nix-command" "flakes"];
