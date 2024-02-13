@@ -28,6 +28,7 @@
     video-trimmer
     linuxKernel.packages.linux_zen.v4l2loopback
     cbonsai
+    tty-clock
   ];
 
   services.cliphist.enable = true;
