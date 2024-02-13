@@ -1,14 +1,14 @@
 {
   wayland.windowManager.hyprland.settings = {
     bind = [
-      # { Mod + Shift + C } = close active window
-      "$mod SHIFT, c, killactive"
+      # { Mod + Shift + J } = close active window
+      "$mod SHIFT, j, killactive"
 
       # { Mod + Shift + F } = toggle floating
-      "$mod SHIFT, f, togglefloating"
+      "$mod SHIFT, E, togglefloating"
 
       # { Mod + F } = toggle fullscreen
-      "$mod, f, fullscreen"
+      "$mod, E, fullscreen"
     ];
 
     bindm = [
