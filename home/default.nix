@@ -22,7 +22,6 @@
     xorg.xeyes
     wl-clipboard
     xorg.xev
-    alacritty
     hyprpaper
     obs-studio
     xdg-desktop-portal-hyprland
