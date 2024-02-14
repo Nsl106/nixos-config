@@ -33,6 +33,7 @@
     tty-clock
     insomnia
     (callPackage ./packages/advantagescope.nix {})
+    spotify-tui
   ];
 
   services.cliphist.enable = true;
