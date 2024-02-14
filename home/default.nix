@@ -3,7 +3,7 @@
   pkgs,
   ...
 }: {
-  imports = [./hyprland ./waybar ./programs];
+  imports = [./hyprland ./waybar ./programs ./packages/desktopfiles.nix];
 
   home.username = "nolanl";
   home.homeDirectory = "/home/nolanl";
@@ -32,6 +32,7 @@
     cbonsai
     tty-clock
     insomnia
+    (callPackage ./packages/advantagescope.nix {})
   ];
 
   services.cliphist.enable = true;
