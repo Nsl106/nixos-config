@@ -59,6 +59,7 @@
 
   environment.systemPackages = with pkgs; [
     git
+    file
   ];
 
   # This option defines the first version of NixOS you have installed on this particular machine,
