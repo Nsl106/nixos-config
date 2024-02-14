@@ -29,6 +29,7 @@
     linuxKernel.packages.linux_zen.v4l2loopback
     cbonsai
     tty-clock
+    insomnia
   ];
 
   services.cliphist.enable = true;
