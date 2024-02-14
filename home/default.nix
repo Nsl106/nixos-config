@@ -18,7 +18,9 @@
     neofetch
     lsof
     xorg.xev
-    prismlauncher
+    (prismlauncher.override {
+      withWaylandGLFW = true;
+    })
     xorg.xeyes
     wl-clipboard
     xorg.xev
