@@ -34,6 +34,7 @@
     insomnia
     (callPackage ./packages/advantagescope.nix {})
     spotify-tui
+    pipes
   ];
 
   services.cliphist.enable = true;
