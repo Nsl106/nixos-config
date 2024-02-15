@@ -35,6 +35,7 @@
     (callPackage ./packages/advantagescope.nix {})
     spotify-tui
     pipes
+    asciiquarium
   ];
 
   services.cliphist.enable = true;
