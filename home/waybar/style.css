@@ -7,8 +7,8 @@
 }
 
 window#waybar {
-    background-color: rgba(43, 48, 59, 0.5);
-    border-bottom: 3px solid rgba(100, 114, 125, 0.5);
+    background-color: #1a1b26;
+    border-bottom: #32344a;
     color: #ffffff;
     transition-property: background-color;
     transition-duration: .5s;
@@ -110,7 +110,8 @@ button:hover {
 }
 
 #clock {
-    background-color: #64727D;
+    background-color: #7aa2f7;
+    color: #000000;
 }
 
 #battery {
@@ -145,16 +146,18 @@ label:focus {
 }
 
 #cpu {
-    background-color: #2ecc71;
+    background-color: #449dab;
     color: #000000;
 }
 
 #memory {
-    background-color: #9b59b6;
+    background-color: #e0af68;
+    color: #000000;
 }
 
 #disk {
-    background-color: #964B00;
+    background-color: #9ece6a;
+    color: #000000;
 }
 
 #backlight {
@@ -170,7 +173,7 @@ label:focus {
 }
 
 #pulseaudio {
-    background-color: #f1c40f;
+    background-color: #f7768e;
     color: #000000;
 }
 
