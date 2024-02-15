@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+hyprctl dispatch movecursor 100 100
+alacritty -e bash -c 'sleep .75 && cbonsai --live --infinite' &
+sleep 0.1
+alacritty &
+sleep 0.1
+hyprctl dispatch movefocus r
+alacritty -e tty-clock -ctnB -C 5 -f "%A, %b %d" &
+sleep 0.1
+alacritty -e cava &
+sleep 0.1
+hyprctl dispatch movefocus l
+hyprctl dispatch movefocus l
+hyprctl dispatch resizeactive exact 80% 100%

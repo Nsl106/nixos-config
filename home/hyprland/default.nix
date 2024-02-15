@@ -5,6 +5,7 @@
 }: {
   imports = [
     ./keybinds
+    ./workspaces
     ./windows.nix
     ./keyboard.nix
     ./mouse.nix
