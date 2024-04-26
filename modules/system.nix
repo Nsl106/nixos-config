@@ -17,7 +17,6 @@
 
   boot.loader.grub = {
     configurationLimit = 10;
-    backgroundColor = "#24283B";
   };
   nix.settings.auto-optimise-store = true;
 

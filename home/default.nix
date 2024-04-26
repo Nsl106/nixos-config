@@ -32,8 +32,7 @@
     cbonsai
     tty-clock
     insomnia
-    (callPackage ./packages/advantagescope.nix {})
-    spotify-tui
+    #(callPackage ./packages/advantagescope.nix {})1
     pipes
     asciiquarium
   ];
