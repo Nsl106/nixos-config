@@ -14,6 +14,7 @@
     ./autostart.nix
     ./hyprpaper.nix
     ./touchpad.nix
+    ./packages.nix
   ];
 
   wayland.windowManager.hyprland = {

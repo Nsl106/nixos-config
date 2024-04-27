@@ -4,9 +4,9 @@
   ...
 }: {
   imports = [
-    ./hyprland
-    ./waybar
-    ./ags
+#    ./hyprland
+#    ./waybar
+#    ./ags
     ./programs
     ./packages/desktopfiles.nix
   ];
@@ -32,19 +32,13 @@
     xorg.xev
     hyprpaper
     obs-studio
-    xdg-desktop-portal-hyprland
     video-trimmer
-    linuxKernel.packages.linux_zen.v4l2loopback
     cbonsai
     tty-clock
-    insomnia
     #(callPackage ./packages/advantagescope.nix {})1
     pipes
     asciiquarium
-    ags
-    libdbusmenu-gtk3
     brightnessctl
-    docker
   ];
 
   services.cliphist.enable = true;

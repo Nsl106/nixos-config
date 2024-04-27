@@ -3,7 +3,7 @@
   pkgs,
   ...
 }: {
-  imports = [./audio.nix ./fonts.nix];
+  imports = [./audio.nix ./fonts.nix ./plasma.nix];
 
   networking.networkmanager.enable = true;
 
@@ -19,9 +19,6 @@
     configurationLimit = 10;
   };
   nix.settings.auto-optimise-store = true;
-
-  # Screen sharing
-  services.pipewire.enable = true;
 
   # Perform garbage collection weekly to maintain low disk usage
   nix.gc = {
@@ -46,10 +43,6 @@
   };
 
   nixpkgs.config.allowUnfree = true;
-  programs.hyprland.enable = true;
-
-  services.ddccontrol.enable = true;
-  services.gvfs.enable = true;
 
   console.useXkbConfig = true;
   services.xserver.xkb = {
