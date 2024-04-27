@@ -6,5 +6,6 @@
     ./song.nix
     ./memory.nix
     ./pulseaudio.nix
+    ./battery.nix
   ];
 }

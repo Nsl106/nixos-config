@@ -25,19 +25,19 @@
     "$mod SHIFT, 0, movetoworkspacesilent, 10"
 
     # { Mod + O } = special workspace for spotify
-    "$mod, o, togglespecialworkspace, spotify"
-    "$mod SHIFT, o, movetoworkspacesilent, special:spotify"
+    "$mod, s, togglespecialworkspace, spotify"
+    "$mod SHIFT, s, movetoworkspacesilent, special:spotify"
 
-    # { Mod + TSRN } = move focus
-    "$mod, t, movefocus, l"
-    "$mod, s, movefocus, r"
-    "$mod, r, movefocus, u"
-    "$mod, n, movefocus, d"
+    # { Mod + HNCT } = move focus
+    "$mod, h, movefocus, l"
+    "$mod, n, movefocus, r"
+    "$mod, c, movefocus, u"
+    "$mod, t, movefocus, d"
 
-    # { Mod + Shift + TSRN } = move workspace between monitors
-    "$mod SHIFT, t, movecurrentworkspacetomonitor, l"
-    "$mod SHIFT, s, movecurrentworkspacetomonitor, r"
-    "$mod SHIFT, r, movecurrentworkspacetomonitor, u"
-    "$mod SHIFT, n, movecurrentworkspacetomonitor, d"
+    # { Mod + Shift + HNCT } = move workspace between monitors
+    "$mod SHIFT, h, movecurrentworkspacetomonitor, l"
+    "$mod SHIFT, n, movecurrentworkspacetomonitor, r"
+    "$mod SHIFT, c, movecurrentworkspacetomonitor, u"
+    "$mod SHIFT, t, movecurrentworkspacetomonitor, d"
   ];
 }

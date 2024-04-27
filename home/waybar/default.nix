@@ -15,7 +15,7 @@
         height = 30;
         modules-left = ["hyprland/workspaces"];
         modules-center = ["custom/song"];
-        modules-right = ["pulseaudio" "memory" "disk" "cpu" "clock"];
+        modules-right = ["battery" "pulseaudio" "memory" "disk" "cpu" "clock"];
       };
     };
   };

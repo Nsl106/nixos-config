@@ -49,6 +49,7 @@
   programs.hyprland.enable = true;
 
   services.ddccontrol.enable = true;
+  services.gvfs.enable = true;
 
   console.useXkbConfig = true;
   services.xserver.xkb = {

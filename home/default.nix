@@ -3,7 +3,13 @@
   pkgs,
   ...
 }: {
-  imports = [./hyprland ./waybar ./programs ./packages/desktopfiles.nix];
+  imports = [
+    ./hyprland
+    ./waybar
+    ./ags
+    ./programs
+    ./packages/desktopfiles.nix
+  ];
 
   home.username = "nolanl";
   home.homeDirectory = "/home/nolanl";
@@ -35,6 +41,10 @@
     #(callPackage ./packages/advantagescope.nix {})1
     pipes
     asciiquarium
+    ags
+    libdbusmenu-gtk3
+    brightnessctl
+    docker
   ];
 
   services.cliphist.enable = true;
