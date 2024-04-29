@@ -1,4 +1,4 @@
-const hyprland = await Service.import("hyprland")
+// const hyprland = await Service.import("hyprland")
 const notifications = await Service.import("notifications")
 const mpris = await Service.import("mpris")
 const audio = await Service.import("audio")
@@ -13,28 +13,28 @@ const date = Variable("", {
 // so to make a reuseable widget, make it a function
 // then you can simply instantiate one by calling it
 
-function Workspaces() {
-    const activeId = hyprland.active.workspace.bind("id")
-    const workspaces = hyprland.bind("workspaces")
-        .as(ws => ws.map(({ id }) => Widget.Button({
-            on_clicked: () => hyprland.messageAsync(`dispatch workspace ${id}`),
-            child: Widget.Label(`${id}`),
-            class_name: activeId.as(i => `${i === id ? "focused" : ""}`),
-        })))
+// function Workspaces() {
+//     const activeId = hyprland.active.workspace.bind("id")
+//     const workspaces = hyprland.bind("workspaces")
+//         .as(ws => ws.map(({ id }) => Widget.Button({
+//             on_clicked: () => hyprland.messageAsync(`dispatch workspace ${id}`),
+//             child: Widget.Label(`${id}`),
+//             class_name: activeId.as(i => `${i === id ? "focused" : ""}`),
+//         })))
+//
+//     return Widget.Box({
+//         class_name: "workspaces",
+//         children: workspaces,
+//     })
+// }
 
-    return Widget.Box({
-        class_name: "workspaces",
-        children: workspaces,
-    })
-}
 
-
-function ClientTitle() {
-    return Widget.Label({
-        class_name: "client-title",
-        label: hyprland.active.client.bind("title"),
-    })
-}
+// function ClientTitle() {
+//     return Widget.Label({
+//         class_name: "client-title",
+//         label: hyprland.active.client.bind("title"),
+//     })
+// }
 
 
 function Clock() {
@@ -123,8 +123,7 @@ function Volume() {
 
 function BatteryLabel() {
     const value = battery.bind("percent").as(p => p > 0 ? p / 100 : 0)
-    const icon = battery.bind("percent").as(p =>
-        `battery-level-${Math.floor(p / 10) * 10}-symbolic`)
+    const icon = battery.bind("percent").as(p => `battery-level-${Math.floor(p / 10) * 10}-symbolic`)
 
     return Widget.Box({
         class_name: "battery",
@@ -161,8 +160,8 @@ function Left() {
     return Widget.Box({
         spacing: 8,
         children: [
-            Workspaces(),
-            ClientTitle(),
+            // Workspaces(),
+            // ClientTitle(),
         ],
     })
 }

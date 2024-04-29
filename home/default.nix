@@ -6,7 +6,7 @@
   imports = [
 #    ./hyprland
 #    ./waybar
-#    ./ags
+    ./ags
     ./programs
     ./packages/desktopfiles.nix
   ];
@@ -39,6 +39,7 @@
     pipes
     asciiquarium
     brightnessctl
+    os-prober
   ];
 
   services.cliphist.enable = true;
